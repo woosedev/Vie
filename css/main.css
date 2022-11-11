@@ -1,0 +1,261 @@
+:root {
+    /* Colors */
+    --grey: #bababa;
+    --off-white: #FAF8F7;
+    --just-white: #fff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #202124;
+}
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: #202124;
+    color: #fff;
+}
+header img{
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+}
+.header-title-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+.header-title-container h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.header-title-container p{
+    margin-top: 30px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.header-title-container .header-button{
+    position: absolute;
+    left: calc(50% - 115px);
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    /* Sombra*/
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.header-button span{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('../assets/icons/arrowr.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+.main-therapies-datail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+.therapies-detail--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.therapies-detail--title h2{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: #202124;
+}
+.therapies-detail--card{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--just-white);
+    border-radius: 5px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.16);
+}
+.therapies--card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: #202124;
+}
+.therapies--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.therapies-detail--card .reiki{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('../assets/icons/reiki.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.therapies-detail--card .oido{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('../assets/icons/oido.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.therapies-detail--card .acupuntura{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('..//assets/icons/acupuntura.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.therapies-detail--card .acces{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('..//assets/icons/acces.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.reiki-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('..//assets/img/reiki.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.reiki-img-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: #202124;
+}
+.location{
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: #202124;
+}
+.location--title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    justify-content: center;
+}
+.location--title h3{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--just-white);
+}
+
+.location--title p{
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--just-white);
+}
+.location--map{
+    width: 95%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.location--map iframe{
+    width: 100%;
+    height: 450px;
+    align-self: center;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    background-color: var(--just-white);;
+}
+footer section{
+    display: flex;
+    width: 50%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    color: #202124;
+}
+footer .left{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+footer .rigth{
+    font-size: 1.4rem;
+    font-weight: bold;
+    justify-content: center;
+}
