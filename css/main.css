@@ -17,6 +17,11 @@ a{
     text-decoration: none;
     color: #202124;
 }
+body li{
+    list-style: none;
+    font-family: 'DM Sans', sans-serif;
+    color: #808080;
+}
 header{
     position: relative;
     display: flex;
@@ -173,6 +178,11 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.therapies-detail--card li{
+    padding-top: 5px;
+    margin-left: 30px;
+    font-size: 1.4rem;
 }
 .reiki-img-container{
     width: 100%;
