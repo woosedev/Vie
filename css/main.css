@@ -31,7 +31,7 @@ header{
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background: #202124;
+    background: #7D3C98;
     color: #fff;
 }
 header img{
@@ -207,7 +207,7 @@ main{
     min-width: 320px;
     height: auto;
     padding-bottom: 30px;
-    background-color: #202124;
+    background-color: #7D3C98;
 }
 .location--title{
     width: 90%;
@@ -251,7 +251,7 @@ footer{
     width: 100%;
     height: auto;
     padding: 20px 0;
-    background-color: var(--just-white);;
+    background-color: var(--just-white);
 }
 footer section{
     display: flex;
