@@ -31,8 +31,7 @@ header{
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background: rgb(184,74,122);
-    background: linear-gradient(0deg, rgba(184,74,122,1) 0%, rgba(166,38,212,1) 100%);
+    background: #7D3C98;
     color: #fff;
 }
 header img{
@@ -208,8 +207,7 @@ main{
     min-width: 320px;
     height: auto;
     padding-bottom: 30px;
-    background: rgb(184,74,122);
-    background: linear-gradient(0deg, rgba(184,74,122,1) 0%, rgba(166,38,212,1) 100%);
+    background-color: #7D3C98;;
 }
 .location--title{
     width: 90%;
