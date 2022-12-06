@@ -31,8 +31,8 @@ header{
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background: rgb(238,174,202);
-    background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(184,74,122);
+background: linear-gradient(0deg, rgba(184,74,122,1) 0%, rgba(166,38,212,1) 100%);
     color: #fff;
 }
 header img{
