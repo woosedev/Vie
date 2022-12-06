@@ -207,7 +207,7 @@ main{
     min-width: 320px;
     height: auto;
     padding-bottom: 30px;
-    background-color: #7D3C98;;
+    background-color: var(--just-white);
 }
 .location--title{
     width: 90%;
@@ -224,7 +224,7 @@ main{
     font-weight: bold;
     line-height: 2.6rem;
     text-align: center;
-    color: var(--just-white);
+    color: #202124;
 }
 
 .location--title p{
@@ -232,7 +232,7 @@ main{
     font-size: 1.4rem;
     line-height: 2.6rem;
     text-align: center;
-    color: var(--just-white);
+    color: #202124;
 }
 .location--map{
     width: 95%;
@@ -251,7 +251,7 @@ footer{
     width: 100%;
     height: auto;
     padding: 20px 0;
-    background-color: var(--just-white);
+    background-color: #202124;
 }
 footer section{
     display: flex;
@@ -259,7 +259,10 @@ footer section{
     height: 150px;
     justify-content: center;
     align-items: center;
-    color: #202124;
+    color: var(--off-white);
+}
+footer section a{
+    color: var(--off-white);
 }
 footer .left{
     font-size: 1.4rem;
