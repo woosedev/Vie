@@ -21,9 +21,26 @@
     width: 930px;
     margin: 0 auto;
 }
-footer .left{
-    font-size: 2rem;
+footer .footer--social .whatsapp{
+    margin-left: 50px;
+    width: 64px;
+    height: 64px;
 }
-footer .rigth{
-    font-size: 2rem;
+
+footer .footer--social .facebook{
+    margin-left: 50px;
+    width: 64px;
+    height: 64px;
+}
+
+footer .footer--social .twitter{
+    margin-left: 50px;
+    width: 64px;
+    height: 64px;
+}
+
+footer .footer--social .instagram{
+    margin-left: 50px;
+    width: 64px;
+    height: 64px;
 }
